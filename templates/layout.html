@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122734742-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-122734742-1');
+    </script>
+
+    <!-- META DATA -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- TITLE OF SITE -->
+    <title>Francis-portfolio</title>
+
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <!-- Google Fonts-->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900%7CMontserrat:300,400,500,600,700,800,900">
+
+    <!-- Bootstrap css -->
+    <link rel="stylesheet" href="../static/css/bootstrap.css">
+    <!-- animate.css -->
+    <link rel="stylesheet" href="../static/css/animate.css">
+    <!-- magnific-popup.css -->
+    <link rel="stylesheet" href="../static/css/magnific-popup.css">
+    <!-- font-awesome.min.css -->
+    <!--<link rel="stylesheet" href="css/font-awesome.min.css">-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Main style css -->
+    <link rel="stylesheet" href="../static/css/style.css">
+    <!-- Responsive css -->
+    <link rel="stylesheet" href="../static/css/responsive.css">
+    <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+</head>
+
+
+<body data-spy="scroll" data-target=".navbar" data-offset="70">
+    {% include 'nav.html' %}
+    {% block content %}{% endblock %}
+    {% include 'footer.html' %}
+    
+</body>
+
+
+    <!--jquery.min.js-->
+    <script src="../static/js/jquery.min.js"></script>
+    <!--spy-scroll.js-->
+    <script src="../static/js/spy-scroll.js"></script>
+    <!--jquery.fittext.js-->
+    <script src="../static/js/jquery.fittext.js"></script>
+    <!--snap.svg-min.js-->
+    <script src="../static/js/snap.svg-min.js"></script>
+    <!--classie.js-->
+    <script src="../static/js/classie.js"></script>
+    <!--svgLoader.js-->
+    <script src="../static/js/svgLoader.js"></script>
+    <!--bootstrap.min.js-->
+    <script src="../static/js/bootstrap.min.js"></script>
+    <!--jquery.magnific-popup.min.js-->
+    <script src="../static/js/jquery.magnific-popup.min.js"></script>
+    <!--isotope.pkgd.min.js-->
+    <script src="../static/js/isotope.pkgd.min.js"></script>
+    <!--parallax.min.js-->
+    <script src="../static/js/parallax.min.js"></script>
+    <!--animateHeader.js-->
+    <script src="../static/js/animateHeader.js"></script>
+    <!-- Main script js -->
+    <script src="../static/js/custom.js"></script>
+
+</html>
